@@ -4,11 +4,13 @@ int ISearch(int ar[], int first, int last, int target) {
 	int mid;
 	
 	if(ar[first] > target || ar[last] < target)
-		return -1;	// Å½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
+		return -1;	// Å½»ö ½ÇÆĞ 
+		
+	// ÀÌÁø Å½»ö°úÀÇ Â÷ÀÌÁ¡ ¹İ¿µ
 	mid = ((double)(target - ar[first]) / (ar[last] - ar[first]) * (last - first)) + first;
 	
 	if(ar[mid] == target)
-		return mid;	// Å½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½È¯
+		return mid;	// Å½»öµÈ Å¸°ÙÀÇ ÀÎµ¦½º °ª ¹İÈ¯
 	else if(target < ar[mid])
 		return ISearch(ar, first, mid - 1, target);
 	else
@@ -16,16 +18,16 @@ int ISearch(int ar[], int first, int last, int target) {
 }
 
 int main(void) {
-	int arr[] = {1, 3, 5, 7, 9};	// ï¿½ï¿½ï¿½Äµï¿½ ï¿½ï¿½ï¿½ï¿½Æ® 
+	int arr[] = {1, 3, 5, 7, 9};	// Á¤·ÄµÈ ¸®½ºÆ® 
 	int idx;
-	int target;	// Å½ï¿½ï¿½ ï¿½ï¿½ï¿½
+	int target;	// Å½»ö ´ë»ó
 	
 	scanf("%d", &target);
 
 	idx = ISearch(arr, 0, sizeof(arr) / sizeof(int) - 1, target);
 	
 	if(idx == -1)
-		printf("Å½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ \n");
+		printf("Å½»ö ½ÇÆĞ \n");
 	else
-		printf("Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ï¿½: %d\n", idx);
+		printf("Å¸°Ù ÀúÀå ÀÎµ¦½º: %d\n", idx);
 }
