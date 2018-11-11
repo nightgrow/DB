@@ -14,11 +14,11 @@ typedef struct _arrayStack {
 
 typedef ArrayStack Stack;
 
-void StackInit(Stack * stack);	// 스택 초기화
-int IsStackEmpty(Stack * stack);	// 스택이 비어있는지 확인
+void StackInit(Stack * pstack);	// 스택 초기화
+int IsStackEmpty(Stack * pstack);	// 스택이 비어있는지 확인
 
-Stack SPush(Stack * pstack, Data data);	// 스택에 데이터를 넣음
-Stack SPop(Stack * pstack);	// 스택에 있는 데이터를 삭제
+Data SPush(Stack * pstack, Data data);	// 스택에 데이터를 넣음
+Data SPop(Stack * pstack);	// 스택에 있는 데이터를 삭제
 Data SPeek(Stack * pstack);	// 가장 최근에 넣은 스택 데이터를 반환
 
 #endif // !__H_A_STACK__
