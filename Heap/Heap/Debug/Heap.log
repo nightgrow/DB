@@ -1,0 +1,47 @@
+﻿  Heap.c
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(10): error C2065: 'Heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(10): error C2146: 구문 오류: ';'이(가) 'heap' 식별자 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(10): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(11): warning C4013: 'HeapInit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(11): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(13): warning C4013: 'HInsert'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(13): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(14): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(15): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(16): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(16): warning C4013: 'HDelete'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(16): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(18): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(19): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(20): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(21): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(23): warning C4013: 'HIsEmpty'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(23): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(24): error C2065: 'heap': 선언되지 않은 식별자입니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\heap.c(26): warning C4013: 'getchar'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  SimpleHeap.c
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(4): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(4): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(4): error C2059: 구문 오류: ')'
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(5): error C2054: 'ph' 다음에 '('가 필요합니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(9): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(9): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(9): error C2059: 구문 오류: ')'
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(10): error C2054: 'ph' 다음에 '('가 필요합니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(32): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(32): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(32): error C2059: 구문 오류: '형식'
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(32): error C2059: 구문 오류: ')'
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(50): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(50): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(50): error C2146: 구문 오류: ';'이(가) 'data' 식별자 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(50): error C2146: 구문 오류: ';'이(가) 'pr' 식별자 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(50): error C2059: 구문 오류: ')'
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(51): error C2054: 'pr' 다음에 '('가 필요합니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(70): error C2061: 구문 오류: 식별자 'HDelete'
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(70): error C2059: 구문 오류: ';'
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(70): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(70): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(70): error C2059: 구문 오류: ')'
+c:\users\ion yun\desktop\ion yun\git\db\heap\heap\simpleheap.c(71): error C2054: 'ph' 다음에 '('가 필요합니다.
+  코드를 생성하고 있습니다...
